@@ -6,4 +6,8 @@ public class HelloGitty {
     public HelloGitty(){
         purr = "Gittygittygitty";
     }
+
+    public String scratch(){
+        return "Gittens got glaws.";
+    }
 }
