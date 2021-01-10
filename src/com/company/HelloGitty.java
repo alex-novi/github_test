@@ -16,4 +16,8 @@ public class HelloGitty {
         if (n == 4) return "";
         else return strings[n] + tale(strings, n + 1);
     }
+    
+    public String tale(String[] strings){
+        return tale(strings, strings.length)
+    }
 }
