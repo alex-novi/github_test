@@ -12,8 +12,8 @@ public class HelloGitty {
         return "Gittens got glaws.";
     }
 
-    public String tale(int n){
+    public String tale(String[] strings, int n){
         if (n == 4) return "";
-        else return HelloGitty.words[n] + tale(n + 1);
+        else return strings[n] + tale(strings, n + 1);
     }
 }
